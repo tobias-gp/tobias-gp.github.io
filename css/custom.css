@@ -1,0 +1,245 @@
+/**
+ * custom css by tobias
+ */
+ 
+ body {
+	background-color: #f9f3ec !important;
+ }
+
+.img-publist {
+	max-height: 300px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.link-white {
+	color: #FFFFFF;
+}
+
+p.paper {
+	color: #C0C0C0;
+}
+
+span.paper-title {
+	color: #FFFFFF;
+	display: block;
+	margin: 10px 0px 10px 0px;
+}
+ 
+ .publist {
+	margin-bottom: 40px;
+ }
+ 
+ .pubyear p {
+	font-size: 32px;
+ }
+ 
+header {
+	background: #101310 url(../img/tobias-grosse-puppendahl.jpg) no-repeat top center !important;
+}
+
+.intro-text {
+	margin: 400px 20px 20px 20px;
+}
+
+header p {
+	text-align: left;
+}
+
+@media(min-width:1200px) {
+	header {
+		background-position: center 50px !important;
+	}
+
+	.intro-text {
+		margin: 20px 20px 20px 20px;
+	}
+	
+}
+
+header .container {
+	padding: 200px 0 50px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.navbar-default {
+  background-color: #101310 !important;
+  
+}
+
+footer .footer-below
+{
+  background-color: #00254a !important;
+}
+
+h2 {
+	color:  #00254a !important;
+}
+
+
+.success h2 {
+	color:  #ffffff !important;
+}
+
+.success hr.nostar  {
+	border-color:  #101310 !important;
+}
+
+.success {
+	background-color: #003468 !important;
+}
+
+.contact h2 {
+	color:  #ffffff !important;
+}
+
+.contact hr.nostar  {
+	border-color:  #003468 !important;
+}
+
+.contact {
+	color:  #ffffff !important;
+	background-color: #101310 !important;
+}
+
+hr.nostar {
+
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+	border-color:  #00254a;
+}
+
+
+.btn-outline {
+	background-color: #0057ae;
+    border: 0 !important;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    background: #fff !important;
+}
+
+a.btn {
+	color: #ffffff !important;
+}
+
+a:hover.btn {
+	color: #00254a !important;
+}
+
+.portfolio-item {
+	padding-top: 30px;
+}
+
+.btn-success {
+	margin: 5px;
+}
+
+
+/* Newsticker */
+
+#nt-example2 {
+	max-width: 620px;
+	margin: auto;
+}
+
+#nt-example2-container {
+	text-align: center;
+	height: 300px;
+}
+
+#nt-example2-container i {
+	cursor: pointer;
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#nt-example2-container i:hover {
+	color: #333;
+}
+
+#nt-example2 li {
+	color: #f2f2f2;
+	background: #74cfae;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 60px;
+	padding: 10px 16px 10px 16px;
+	line-height: 40px;
+	list-style: none;
+	font-size: 24px;
+	text-align: left;
+}
+
+#nt-example2 li .state {
+	font-size: inherit;
+	margin: 0;
+}
+
+#nt-example2 span.hour {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#nt-example2-infos-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 15px 16px 15px;
+	border-color: transparent transparent #74cfae transparent;
+	margin: 6px auto 0;
+}
+
+#nt-example2-infos {
+	max-width: 620px;
+	margin: auto;
+	padding: 12px;
+	color: #f2f2f2;
+	background: #74cfae;
+}
+
+#nt-example2-infos .infos-hour {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+#nt-example2-infos .infos-text {
+	text-align: left;
+}
+
+#nt-example2-infos .infos-title {
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.data-infos {
+	display:none;
+}
+.data-time {
+	display:none;
+}
+
+#nt-example2 {
+	display: none;
+}
+ /**
+  * end customization
+  */
